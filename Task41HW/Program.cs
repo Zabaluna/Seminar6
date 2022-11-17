@@ -29,25 +29,3 @@ int ResultArray(int[] array)
     }
     return result;
 }
-
-
-// Console.Write("Введите ваши числа: ");
-// string arraySize = Console.ReadLine();
-
-// int size = int.Parse(arraySize);
-
-// int[] nums = new int[size];
-
-// for (int i = 0; i < size; i++)
-// {
-//     Console.Write($"Введите ваши числа: ");
-//     string num = Console.ReadLine();
-
-//     nums[i] = int.Parse(num);
-//     int result=0;
-//     if (nums[i] > 0) 
-//     {
-//         result++;
-//     }
-// }
-// Console.WriteLine($"Количества чисел больше нуля [{String.Join(", ", result)}]");
